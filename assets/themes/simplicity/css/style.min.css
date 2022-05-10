@@ -1210,7 +1210,8 @@ html.disable-scrolling {
 
 @media (min-width: 1024px) {
     .page-footer__inner {
-        padding-right:139px
+    padding-right: 265px;
+    padding-left: 25px;
     }
 }
 
@@ -2283,8 +2284,8 @@ body.error404 .main-wrap {
     line-height: 1;
     white-space: nowrap;
     border-radius: 30px;
-    /*background-color: #000;*/
-    border-color: #ff5722;
+    background: transparent;
+   
     border-width: medium;
     background-repeat: no-repeat;
     background-size: 18px 18px;
@@ -2297,9 +2298,10 @@ body.error404 .main-wrap {
     .btn:focus,.btn:hover {
         background-color:#fff
     }
-    .btn1:focus,.btn:hover {
-        border-color: #ff5722;
+    .btn1:focus,.btn1:hover {
+        background: transparent;
         border-width: medium;
+        
     }
 }
 
@@ -2315,6 +2317,7 @@ body.error404 .main-wrap {
         padding-right: 10px;
         font-size: 2rem;
         background-position: right 33px center
+
     }
 }
 
@@ -2337,7 +2340,7 @@ body.error404 .main-wrap {
 }
 
 .nav li:first-child {
-    left: -105px;
+    left: -102px;
     background-color: #0092FF
 }
 
@@ -2348,7 +2351,7 @@ body.error404 .main-wrap {
 }
 
 .nav li:nth-child(2) {
-    left: -62px;
+    left: -59px;
     background-color: #00C889
 }
 
@@ -2359,7 +2362,7 @@ body.error404 .main-wrap {
 }
 
 .nav li:nth-child(3) {
-    left: -17px;
+    left: -16px;
     background-color: #A03DFF
 }
 
@@ -2370,7 +2373,7 @@ body.error404 .main-wrap {
 }
 
 .nav li:nth-child(4) {
-    left: 27px;
+    left: 28px;
     background-color: #FF0434
 }
 
@@ -2381,7 +2384,7 @@ body.error404 .main-wrap {
 }
 
 .nav li:nth-child(5) {
-    left: 71px;
+    left: 72px;
     background-color: #FFC400
 }
 
@@ -3705,4 +3708,6 @@ body.error404 .main-wrap {
     width: 100%
 }
 
+
 /*# sourceMappingURL=maps/style.min.css.map */
+
