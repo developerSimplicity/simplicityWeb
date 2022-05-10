@@ -372,7 +372,7 @@ img {
 }
 
 a {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -900,23 +900,29 @@ html.disable-scrolling {
 }
 
 .page-header__menu>li:first-child {
-    background-color: #2b806e
+    background-color: #0092FF
 }
 
 .page-header__menu>li:nth-child(2) {
-    background-color: #a39ef8
+    background-color: #00C889
 }
 
 .page-header__menu>li:nth-child(3) {
-    background-color: #ff534a
+    background-color: #A03DFF
 }
 
+
 .page-header__menu>li:nth-child(4) {
-    background-color: #a9c8ff
+    background-color: #FF0434
 }
 
 .page-header__menu>li:nth-child(5) {
-    display: none
+    
+    background-color: #FFC400
+}
+.page-header__menu>li:nth-child(6) {
+    /*display: none*/
+    background-color: #ECF0F5
 }
 
 .page-header__menu a {
@@ -1118,7 +1124,7 @@ html.disable-scrolling {
     }
 
     .home-copy__btn-wrap.hide-in-mob {
-        display: block
+        display: flex
     }
 }
 
@@ -1127,11 +1133,11 @@ html.disable-scrolling {
 }
 
 .home__copy a:not(.btn) {
-    color: #000
+    color: #fff
 }
 
 .home__copy a:not(.btn):active,.home__copy a:not(.btn):focus,.home__copy a:not(.btn):hover {
-    color: #a9c8ff
+    color: #fff
 }
 
 .home__copy h1,.home__copy p:not(:last-child) {
@@ -1140,8 +1146,10 @@ html.disable-scrolling {
 
 @media (min-width: 768px) {
     .home__copy {
-        width:45%;
-        max-width: 400px
+        
+    width: 58%;
+    max-width: 521px;
+
     }
 }
 
@@ -2253,8 +2261,8 @@ body.error404 .main-wrap {
     line-height: 1;
     white-space: nowrap;
     border-radius: 30px;
-    background-color: #a9c8ff;
-    background-image: url(../img/icon-arrow-top-right.svg);
+    background-color: #ffffff;
+    background-image: url(assets/themes/simplicity/img/play.png);
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: right 25px center;
@@ -2379,7 +2387,7 @@ body.error404 .main-wrap {
 @media (min-width: 1024px) {
     .nav {
         position:fixed;
-        top: 110px;
+        top: 0px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -2469,7 +2477,7 @@ body.error404 .main-wrap {
     right: 0;
     height: 3px;
     display: block;
-    background: #000;
+    background: #fff;
     content: "";
     -webkit-transition: top .3s ease-in-out .3s,bottom .3s ease-in-out .3s,-webkit-transform .3s ease-in-out;
     transition: top .3s ease-in-out .3s,bottom .3s ease-in-out .3s,-webkit-transform .3s ease-in-out;
