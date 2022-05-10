@@ -575,8 +575,8 @@ p:last-of-type {
 .container {
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 30px;
-    padding-right: 30px;*/
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%
 }
 
@@ -2297,7 +2297,7 @@ body.error404 .main-wrap {
 
 .nav li:first-child {
     left: -105px;
-    background-color: #2b806e
+    background-color: #0092FF
 }
 
 .is-first .nav li:first-child,.is-fourth .nav li:first-child,.is-second .nav li:first-child,.is-third .nav li:first-child {
@@ -2308,7 +2308,7 @@ body.error404 .main-wrap {
 
 .nav li:nth-child(2) {
     left: -62px;
-    background-color: #a39ef8
+    background-color: #00C889
 }
 
 .is-fourth .nav li:nth-child(2),.is-second .nav li:nth-child(2),.is-third .nav li:nth-child(2) {
@@ -2319,7 +2319,7 @@ body.error404 .main-wrap {
 
 .nav li:nth-child(3) {
     left: -17px;
-    background-color: #ff534a
+    background-color: #A03DFF
 }
 
 .is-fourth .nav li:nth-child(3),.is-third .nav li:nth-child(3) {
@@ -2330,7 +2330,7 @@ body.error404 .main-wrap {
 
 .nav li:nth-child(4) {
     left: 27px;
-    background-color: #a9c8ff
+    background-color: #FF0434
 }
 
 .is-fourth .nav li:nth-child(4) {
@@ -2341,7 +2341,7 @@ body.error404 .main-wrap {
 
 .nav li:nth-child(5) {
     left: 71px;
-    background-color: #a9c8ff
+    background-color: #FFC400
 }
 
 .is-fiveth .nav li:nth-child(5) {
@@ -2352,7 +2352,7 @@ body.error404 .main-wrap {
 
 .nav li:nth-child(6) {
     left: 115px;
-    background-color: #a9c8ff
+    background-color: #ECF0F5
 }
 
 .is-sixth .nav li:nth-child(6) {
