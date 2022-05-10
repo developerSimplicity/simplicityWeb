@@ -765,8 +765,8 @@ html.disable-scrolling {
 
 @media (min-width: 1024px) {
     .page-header {
-        padding-top:35px;
-        padding-bottom: 26px
+        padding-top:25px;
+       /* padding-bottom: 26px*/
     }
 
     body .page-header {
@@ -823,7 +823,7 @@ html.disable-scrolling {
 
 @media (min-width: 1024px) {
     .page-header__logo {
-        width:317px
+        width:210px
     }
 
     .is-scrolling .page-header__logo {
@@ -832,8 +832,8 @@ html.disable-scrolling {
 
     body .page-header__logo {
         position: relative;
-        margin-top: -25px;
-        top: 25px
+        /*margin-top: -25px;*/
+        top: -17px
     }
 
     .is-fifth .page-header__logo,.is-first .page-header__logo,.is-fourth .page-header__logo,.is-second .page-header__logo,.is-third .page-header__logo {
@@ -845,7 +845,7 @@ html.disable-scrolling {
 
 @media (min-width: 1440px) {
     .page-header__logo {
-        width:317px
+        width:210px
     }
 
     .is-scrolling .page-header__logo {
@@ -853,7 +853,7 @@ html.disable-scrolling {
     }
 
     body .page-header__logo {
-        width: 317px
+        width: 210px
     }
 
     .is-fifth .page-header__logo,.is-first .page-header__logo,.is-fourth .page-header__logo,.is-second .page-header__logo,.is-third .page-header__logo {
@@ -2262,7 +2262,30 @@ body.error404 .main-wrap {
     white-space: nowrap;
     border-radius: 30px;
     background-color: #ffffff;
-    background-image: url(assets/themes/simplicity/img/play.png);
+    background-image: url(../img/video.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: right 25px center;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+.btn1 {
+    padding: 5px 50px 5px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: initial;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1;
+    white-space: nowrap;
+    border-radius: 30px;
+    /*background-color: #000;*/
+    border-color: #ff5722;
+    border-width: medium;
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: right 25px center;
@@ -2274,6 +2297,10 @@ body.error404 .main-wrap {
     .btn:focus,.btn:hover {
         background-color:#fff
     }
+    .btn1:focus,.btn:hover {
+        border-color: #ff5722;
+        border-width: medium;
+    }
 }
 
 @media (min-width: 768px) {
@@ -2281,6 +2308,12 @@ body.error404 .main-wrap {
         padding-left:33px;
         padding-right: 70px;
         font-size: 2.6rem;
+        background-position: right 33px center
+    }
+    .btn1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 2rem;
         background-position: right 33px center
     }
 }
