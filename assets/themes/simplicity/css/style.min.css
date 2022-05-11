@@ -328,7 +328,7 @@ body {
 
 .main-inner {
     position: relative;
-    width: 100%;
+    width: 80%;
     overflow: hidden
 }
 
@@ -1147,7 +1147,7 @@ html.disable-scrolling {
 @media (min-width: 768px) {
     .home__copy {
         
-    width: 58%;
+    width: 75%;
     max-width: 521px;
 
     }
@@ -1155,6 +1155,7 @@ html.disable-scrolling {
 
 @media (min-width: 1280px) {
     .home__copy h1 {
+         width: 100%;
         margin-bottom:55px
     }
 
@@ -1236,7 +1237,7 @@ html.disable-scrolling {
 
 @media (min-width: 1024px) {
     .page-footer__logo {
-        width:94px
+       width: 23.5%;
     }
 }
 
@@ -1371,7 +1372,7 @@ html.disable-scrolling {
 
 @media (min-width: 1440px) {
     .page-footer__form {
-        width:50%
+        width:30%
     }
 }
 
@@ -1508,7 +1509,7 @@ html.disable-scrolling {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100%
+    width: 20%
 }
 
 .page-footer__social li.hide-in-mob {
