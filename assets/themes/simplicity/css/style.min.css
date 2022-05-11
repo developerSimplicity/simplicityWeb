@@ -582,8 +582,8 @@ p:last-of-type {
 
 @media (min-width: 768px) {
     .container {
-        /*padding-left:40px;
-        padding-right: 40px*/
+        padding-left:40px;
+        padding-right: 40px
     }
 }
 
@@ -3012,7 +3012,7 @@ body.error404 .main-wrap {
         display: flex;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: center
     }
 }
 
@@ -3712,6 +3712,12 @@ body.error404 .main-wrap {
 
 .jobs-hero__media img {
     width: 100%
+}
+
+.columna {
+    float: left;
+    width: 25%;
+    padding-right: 5px;
 }
 
 
