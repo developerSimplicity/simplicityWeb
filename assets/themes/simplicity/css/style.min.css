@@ -590,10 +590,15 @@ p:last-of-type {
 @media (min-width: 1280px) {
     .container {
         padding-left:65px;
-        padding-right: 65px
+        padding-right: 65px;
     }
-}
+    .container1 {
+        padding-left: 35px;
+        padding-right: 107px;
+    }
 
+}
+    
 @media (min-width: 1920px) {
     .container {
         padding-left:5%;
@@ -2285,9 +2290,6 @@ body.error404 .main-wrap {
     line-height: 1;
     white-space: nowrap;
     border-radius: 30px;
-    background: transparent;
-   
-    border-width: medium;
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: right 25px center;
@@ -2855,6 +2857,11 @@ body.error404 .main-wrap {
     .about-hello__copy {
         padding-right:20px;
         margin-bottom: 0
+    }
+
+    .noseligen {
+    padding-top: 25%;
+    padding-bottom: 20%;
     }
 
     .about-hello__copy p {

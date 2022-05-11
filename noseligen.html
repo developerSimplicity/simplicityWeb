@@ -50,6 +50,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </style>
 <link rel='stylesheet' id='contact-form-7-css'  href='assets/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
 <link rel='stylesheet' id='styleCSS-css'  href='assets/themes/simplicity/css/style.min.css' type='text/css' media='all' />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="dist/style.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="dist/script.js"></script> -->
 <script type='text/javascript' src='assets/themes/simplicity/js/picturefill.min.js#asyncload' id='picturefill-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
@@ -62,12 +65,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     var templateUrl = 'assets/themes/simplicity';
 </script>
 
+<body class="page-template page-template-template-services page-template-template-services-php page page-id-11" data-barba="wrapper">
 
-<body class="home page-template page-template-front-page" data-barba="wrapper">
-
+<div class="is-mobile"></div>
 
 <span class="cursor">
-    <img src="assets/themes/simplicity/img/cursor-purple.png" alt="">
+     <img src="assets/themes/simplicity/img/cursor-purple.png" alt="">
 </span>
 
 
@@ -83,7 +86,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         </div>
         <button class="hamburger"><span class="visually-hidden">Menu</span></button>
         <div class="page-header__logo-wrap hide-in-mob col-lg-12 col-md-12" >
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-6 col-lg-6" style="    margin-left: 90px;">
                 <a class="page-header__logo  page-header__logo--front" href="index.html">
                 <img src="assets/themes/simplicity/img/logo.png" alt="Simplicity">
             </a>
@@ -107,9 +110,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                 </li>
                 <li  class=""><a href="noseligen.html">Nos Eligen</a>
                 </li>
-                <li  class=""><a href="asirespondemos.html">Así Respondemos</a>
+                <li  class=""><a href="#">Así Respondemos</a>
                 </li>
-                <li  class=""><a href="tuequipo.html">Tu Equipo</a>
+                <li  class=""><a href="#">Tu Equipo</a>
                 </li>
                 <li  class="" ><a href="aquiestamos.html" style="color: #000;">Aqui Estamos</a>
                 </li>
@@ -123,7 +126,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 <div class="main-wrap">
-     <ul class="nav">
+    <ul class="nav">
      
         <li><a href="asisomos.html" data-class="is-first">Así Somos</a>
         </li>
@@ -131,14 +134,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         </li>
         <li><a href="noseligen.html" data-class="is-third">Nos Eligen</a>
         </li>
-        <li><a href="asirespondemos.html" data-class="is-fourth">Así Respondemos</a>
+        <li><a href="#" data-class="is-fourth">Así Respondemos</a>
         </li>
-         <li><a href="tuequipo.html" data-class="is-fifth">Tu Equipo</a>
+         <li><a href="#" data-class="is-fifth">Tu Equipo</a>
         </li>
         <li><a href="aquiestamos.html" data-class="is-sixth" style="color: #000;">Aqui Estamos</a>
         </li>
     </ul>
-  
     <div class="main-inner">
         <main data-barba="container" data-barba-namespace="about">
                 <div class="about container">
@@ -290,27 +292,32 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                                     
                             </div>
                                 
+                            </div>
+                           
                     </div>
                 </div>
-                <div class="about container" style="background-color:black;">
-                    <div class="about-inner">
-                        <div class="footernoseligen scroll-section" >
-                                 <div class="footernoseligen__inner">
-                                    <div class="footernoseligen__img" style="color: white; font-weight: bold;">
+                <div class="about container col-lg-12 col-md-12" style="background-color:black; padding-bottom:5%">
+                    
+                                
+                                    <div class="footernoseligen__img col-md-6 col-lg-6" style="color: white; font-weight: bold;" >
                                         <h5 style="font-size: 40px;">¿Tienes <br>un nuevo <br> desafío?</h5>
+                                        
                                     </div>
-                                    <div class="no-transition-menu-item home-copy__btn-wrap" style="    padding-top: 40px;">
-                                        <a class="btn" href="" style="        background-color: #a03dff; color: #fff; font-weight: bold;"> Aquí estamos </a>
+                                    <div class="footernoseligen__img col-md-6 col-lg-6">
+                                        <a class="btn1" href="" style="        background-color: #a03dff; color: #fff; font-weight: bold;     width: 22%;" > Aquí estamos </a>
                                     </div>
-                                </div>
-                        </div>
-                    </div>
+                                   <!--  <div class="no-transition-menu-item home-copy__btn-wrap" style="    padding-top: 40px;">
+                                        <a class="btn1" href="" style="        background-color: #a03dff; color: #fff; font-weight: bold;     width: 22%;" > Aquí estamos </a>
+                                    </div> -->
+                               
+                    
                 </div>
         </main>
     </div>
-</div>
 
-<footer class="page-footer">
+
+</div>
+<footer class="page-footer" style="    width: 104.5%;">
     <div class="page-footer__inner container">
         <a class="page-footer__logo" href="" style="    height: 100%;">
            <img src="assets/themes/simplicity/img/logofooter.jpeg">
@@ -328,7 +335,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
              </p>
             
         </div>  
-       
+      
         <ul class="page-footer__social">
                 <li><img src="assets/img/colores.png" title="colores">
 
@@ -343,6 +350,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     
 </footer>
 
+
 <script type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></script>
 <script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
 
@@ -352,7 +360,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js' id='scrollmagic-js'></script>
 <script type='text/javascript' src='assets/themes/simplicity/js/libs.min.js' id='libs-js'></script>
 <script type='text/javascript' src='assets/themes/simplicity/js/main.min.js' id='mainJS-js'></script>
-
 
 </body>
 </html>
