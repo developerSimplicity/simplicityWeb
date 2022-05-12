@@ -306,8 +306,8 @@ body {
     }
 
     .is-first .main-wrap {
-        padding-left: 0px;
-    padding-right: 89px;
+        padding-left: 44px;
+        padding-right: 132px
     }
 
     .is-second .main-wrap {
@@ -324,6 +324,14 @@ body {
         padding-left: 176px;
         padding-right: 0
     }
+    .is-fiveth .main-wrap {
+        padding-left: 176px;
+        padding-right: 0
+    }
+    .is-fsixth .main-wrap {
+        padding-left: 176px;
+        padding-right: 0
+    }
 }
 
 .main-inner {
@@ -331,6 +339,14 @@ body {
     width: 80%;
     overflow: hidden
 }
+/*@media (min-width: 768px) {
+    .main-inner {
+        position: relative;
+    width: 93%;
+    overflow: hidden
+    }
+}*/
+
 
 .cursor {
     position: fixed;
@@ -351,7 +367,7 @@ body {
 }
 
 .about-approach__item-body p a,.about-inner__col--lg a,.link-general {
-    color: currentColor
+    /*color: currentColor*/
 }
 
 .about-approach__item-body p a:active,.about-approach__item-body p a:focus,.about-approach__item-body p a:hover,.about-inner__col--lg a:active,.about-inner__col--lg a:focus,.about-inner__col--lg a:hover,.link-general:active,.link-general:focus,.link-general:hover {
@@ -544,12 +560,12 @@ h1 {
 }
 
 .h4,.h5,h4,h5 {
-    font-weight: 600;
-    text-transform: uppercase
+    font-weight: 400;
+    text-transform: none
 }
 
 .h5,h5 {
-    font-size: 1.6rem
+    font-size: 25px
 }
 
 .h6,h6 {
@@ -1091,6 +1107,7 @@ html.disable-scrolling {
         align-items: center;
         height: calc(100vh - 110px);
         max-width: 960px
+        background-color: #000;
     }
 }
 
@@ -1689,17 +1706,17 @@ html.disable-scrolling {
 
 .services-item:before {
     left: 0;
-    background-color: #a9c8ff
+    background-color: #000
 }
 
 .services-item:after {
     right: 0;
-    background-color: #a39ef8
+    background-color: #000
 }
 
 .services-item.is-active {
-    background: #27292e;
-    border-bottom: 14px solid #2b806e
+    background: #000;
+   /* border-bottom: 14px solid #2b806e*/
 }
 
 .services-item.is-active:after,.services-item.is-active:before {
@@ -1770,7 +1787,7 @@ html.disable-scrolling {
 }
 
 .services-item__content-title h5 {
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: .16px;
     margin-bottom: 20px;
     -webkit-transition: all .3s ease-in-out;
@@ -1783,8 +1800,8 @@ html.disable-scrolling {
 
 @media (min-width: 768px) {
     .services-item__content-title {
-        width:43%;
-        max-width: 43%;
+        width:40%;
+        max-width: 40%;
         padding-right: 30px;
         margin-bottom: 0
     }
@@ -1827,8 +1844,8 @@ html.disable-scrolling {
 
 @media (min-width: 768px) {
     .services-item__content-info {
-        width:57%;
-        max-width: 57%
+        width:60%;
+        max-width: 60%
     }
 }
 
@@ -2405,7 +2422,7 @@ body.error404 .main-wrap {
 .is-sixth .nav li:nth-child(6) {
     -webkit-transform: none;
     transform: none;
-    left: 132px
+    left: 2px
 }
 
 .nav a {
@@ -2791,7 +2808,7 @@ body.error404 .main-wrap {
 @media (min-width: 1024px) {
     .about-inner__row {
         margin-bottom:100px;
-        width: 120%;
+        width: 100%;
         font-weight: 400;
         font-size: 23px;
     }
