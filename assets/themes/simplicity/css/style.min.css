@@ -307,7 +307,7 @@ body {
 
     .is-first .main-wrap {
         padding-left: 44px;
-        padding-right: 132px
+        padding-right: 0px
     }
 
     .is-second .main-wrap {
@@ -339,13 +339,7 @@ body {
     width: 80%;
     overflow: hidden
 }
-/*@media (min-width: 768px) {
-    .main-inner {
-        position: relative;
-    width: 93%;
-    overflow: hidden
-    }
-}*/
+
 
 
 .cursor {
